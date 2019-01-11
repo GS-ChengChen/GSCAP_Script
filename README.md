@@ -6,13 +6,3 @@
 #（2）去除fastq中包含的2.0标签，得到clean data；
 #（3）对得到的clean data生成md5sum.txt文件；
 #（4）将样本对应的CNV文件放到对应的样本目录下面；
-<<<<<<< HEAD
-# ReadMe
-# ReadMe
-# ReadMe
-# ReadMe
-=======
->>>>>>> 5cdd0bcd0c90fbb010cd0606ad30484c85e06dcb
-# ReadMe
-# ReadMe
-# ReadMe
