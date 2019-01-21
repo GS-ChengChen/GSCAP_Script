@@ -23,7 +23,7 @@ cnv_dir = "{}/CNV" .format(out_dir)
 #	os.makedirs(cnv_dir)
 tmp = os.popen("grep ^YB {}/20{}/id.list |cut -f 1 -d," .format (cln_dir,FC)).readlines()
 lst = ''.join(list(tmp)).split("\n")[:-1]
-if len(lst) > 1:
+if len(lst) >= 1:
 	if not os.path.exists(clean_dir):
 		os.makedirs(clean_dir)
 	if not os.path.exists(cnv_dir):
